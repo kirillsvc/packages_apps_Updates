@@ -17,6 +17,7 @@ import org.pixelexperience.ota.model.UpdateInfo;
 public class ExtrasFragment extends Fragment {
 
     private View mainView;
+    private ExtraCardView devCard;
     private ExtraCardView maintainerCard;
     private ExtraCardView donateCard;
     private ExtraCardView forumCard;
@@ -27,6 +28,7 @@ public class ExtrasFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         mainView = inflater.inflate(R.layout.extras_fragment, container, false);
+        devCard = mainView.findViewById(R.id.dev_card);
         maintainerCard = mainView.findViewById(R.id.maintainer_card);
         donateCard = mainView.findViewById(R.id.donate_card);
         forumCard = mainView.findViewById(R.id.forum_card);
@@ -47,6 +49,19 @@ public class ExtrasFragment extends Fragment {
             mainView.setVisibility(View.GONE);
             return;
         }
+		   // Dev info
+                devCard.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    String url = "https://t.me/boozabooza";
+                    Intent i = new Intent(Intent.ACTION_VIEW);
+                    i.setData(Uri.parse(url));
+                    startActivity(i);
+                }
+            });
+
+                   devCard.setClickable(true);
+                    devCard.setVisibility(View.VISIBLE);
 
         if (update.getMaintainer() != null && !update.getMaintainer().isEmpty()) {
             maintainerCard.setSummary(update.getMaintainer());
