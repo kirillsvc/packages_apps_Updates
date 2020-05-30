@@ -500,7 +500,7 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                 case R.id.menu_copy_url:
                     Utils.addToClipboard(mActivity,
                             mActivity.getString(R.string.label_download_url),
-                            Utils.getDownloadWebpageUrl(update.getName()));
+                            Utils.getServerURL(update.getName()));
                     mActivity.showSnackbar(R.string.toast_download_url_copied, Snackbar.LENGTH_SHORT);
                     return true;
                 case R.id.menu_export_update:
