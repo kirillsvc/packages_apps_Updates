@@ -33,9 +33,9 @@ public final class Constants {
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
     static final String PROP_DEVICE = "org.pixelexperience.device";
-    static final String PROP_BUILD_VERSION = "org.pixelexperience.version";
-    static final String OTA_URL = "https://raw.githubusercontent.com/PixelExperience-FanEdition/OTA/master/builds/%s.json";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/PixelExperience-FanEdition/OTA/master/changelogs/%s/%s.txt";
-    static final String PROP_VERSION_CODE = "org.pixelexperience.ota.version_code";
+    static final String PROP_BUILD_VERSION = "ro.build.version.release";
+    static final String OTA_URL = "https://raw.githubusercontent.com/Hack64/OTA/master/builds/%s.json";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://raw.githubusercontent.com/Hack64/OTA/master/changelogs/%s/%s.txt";
+    static final String PROP_VERSION_CODE = "org.pixelexperience.version";
     static final String EXPORT_PATH = "PixelExperience-Updates/";
 }
