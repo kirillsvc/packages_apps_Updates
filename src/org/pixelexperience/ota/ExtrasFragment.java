@@ -53,7 +53,7 @@ public class ExtrasFragment extends Fragment {
                 devCard.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    String url = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+                    String url = "https://twel12.github.io/Twel12/";
                     Intent i = new Intent(Intent.ACTION_VIEW);
                     i.setData(Uri.parse(url));
                     startActivity(i);
