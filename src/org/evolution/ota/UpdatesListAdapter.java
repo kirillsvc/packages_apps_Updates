@@ -40,7 +40,6 @@ import android.widget.TextView;
 import org.evolution.ota.controller.UpdaterController;
 import org.evolution.ota.controller.UpdaterService;
 import org.evolution.ota.misc.Constants;
-import org.evolution.ota.misc.PermissionsUtils;
 import org.evolution.ota.misc.StringGenerator;
 import org.evolution.ota.misc.Utils;
 import org.evolution.ota.model.UpdateInfo;
@@ -499,11 +498,6 @@ public class UpdatesListAdapter extends RecyclerView.Adapter<UpdatesListAdapter.
                     return true;
                 case R.id.menu_export_update:
                     // TODO: start exporting once the permission has been granted
-                    boolean hasPermission = PermissionsUtils.checkAndRequestStoragePermission(
-                            mActivity, 0);
-                    if (hasPermission) {
-                        exportUpdate(update);
-                    }
                     return true;
             }
             return false;
