@@ -135,6 +135,6 @@
     <string name="advisory_notice_title">Mitteilung</string>
     <string name="advisory_notice_content">- Es wird empfohlen, Wlan zu verwenden, wo immer möglich, um Updates herunterzuladen. Wenn Sie die Mobilfunkverbindung verwenden (einschließlich Roaming), kann das mit zusätzlichen Kosten verbunden sein - fragen Sie bei Ihrem Netzbetreiber, falls Sie irgendwelche Bedenken haben.</string>
     <string name="update_size">Update Größe: %1$s</string>
-    <string name="notification">Es gibt ein neues Evolution X Update für dein Gerät!</string>
+    <string name="notification">Es gibt ein neues Update für dein Gerät!</string>
     <string name="download_over_mobiledata_warning">Das Herunterladen von Updates über ein Mobilfunknetz, kostenpflichtiges Wlan oder bei Roaming kann zusätzliche Kosten verursachen.</string>
 </resources>
