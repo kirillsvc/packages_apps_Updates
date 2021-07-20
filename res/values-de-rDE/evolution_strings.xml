@@ -125,7 +125,7 @@
     <string name="error_open_url">Fehler beim Öffnen der URL im Browser</string>
     <!-- OTA section -->
     <string name="android_version">Android Version: <xliff:g id="version" example="7.1.2">%1$s</xliff:g></string>
-    <string name="evolution_version">Evolution X Version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
+    <string name="evolution_version">Version: <xliff:g id="version" example="4.1.0">%1$s</xliff:g></string>
     <string name="security_patch_level">Sicherheits-Patch-Level: <xliff:g id="patch" example="March 15, 2020">%1$s</xliff:g></string>
     <string name="check_for_update">Nach Update suchen</string>
     <string name="last_successful_check_for_update">Zuletzt auf Update überprüft am: %1$s</string>

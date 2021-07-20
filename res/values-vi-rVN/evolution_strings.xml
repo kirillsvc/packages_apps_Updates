@@ -132,6 +132,6 @@
     <string name="advisory_notice_title">Thông báo tư vấn</string>
     <string name="advisory_notice_content">- Người dùng nên sử dụng Wi-Fi ở mọi nơi có thể để tải xuống các bản cập nhật. Nếu bạn muốn sử dụng kết nối Di động Di động, xin lưu ý rằng việc tải xuống dữ liệu qua Mạng Di động (bao gồm cả khi ở trong môi trường Chuyển vùng), có thể phải trả thêm phí - hãy kiểm tra với Nhà cung cấp mạng của bạn nếu bạn có bất kỳ lo ngại nào.</string>
     <string name="update_size">Kích cỡ bản cập nhật: %1$s</string>
-    <string name="notification">Đã có bản cập nhật Evolution X mới cho thiết bị của bạn!</string>
+    <string name="notification">Đã có bản cập nhật mới cho thiết bị của bạn!</string>
     <string name="download_over_mobiledata_warning">Tải xuống các bản cập nhật qua mạng di động, Wi-Fi được đo hoặc trong khi chuyển vùng có thể gây ra các khoản phí bổ sung.</string>
 </resources>
