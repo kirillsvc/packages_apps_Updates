@@ -141,6 +141,6 @@
     <string name="advisory_notice_title">Zawiadomienie doradcze</string>
     <string name="advisory_notice_content">- Zaleca się, aby użytkownicy używali Wi-Fi w miarę możliwości w celu pobierania aktualizacji. Jeśli chcesz korzystać z mobilnego połączenia komórkowego, należy pamiętać, że pobieranie danych przez komórkową sieć komórkową (w tym w środowisku roamingu), może ponieść dodatkowe opłaty - sprawdź u swojego dostawcy sieci w razie jakichkolwiek wątpliwości.</string>
     <string name="update_size">Rozmiar pliku aktualizacji: %1$s</string>
-    <string name="notification">Dostępna jest nowa aktualizacja Evolution X dla twojego urządzenia!</string>
+    <string name="notification">Dostępna jest nowa aktualizacja dla twojego urządzenia!</string>
     <string name="download_over_mobiledata_warning">Pobieranie aktualizacji przez sieć komórkową, dane Wi-Fi lub w roamingu może powodować dodatkowe opłaty.</string>
 </resources>
