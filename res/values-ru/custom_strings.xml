@@ -102,4 +102,11 @@
     <string name="forum_info_title">Форум</string>
     <string name="forum_info_summary">Последние сообщения на форуме</string>
     <string name="error_open_url">Не удалось открыть ссылку</string>
+    <string name="local_update_title">Локальное обновление</string>
+    <string name="local_update_summary">Установить обновление из внутреннего хранилища</string>
+    <string name="local_update_import_success">Вы выбрали:\n%1$s\n\nВы уверены, что хотите установить это?</string>
+    <string name="local_update_import_disabled">Нельзя импортировать обновление во время скачивания или установки другого</string>
+    <string name="local_update_import_failure">Не удалось импортировать обновление</string>
+    <string name="local_update_import_install">Установить</string>
+    <string name="local_update_import_progress">Импортирование обновления\u2026</string>
 </resources>
